@@ -1,0 +1,357 @@
+@charset "UTF-8";
+/*
+  Author: Bryan Henson
+  Description: Typography | Fish Creek Animal Hospital
+  Date: 9.19.2017
+  Version: 1.2
+  */
+
+/*  ==== Base styles ==== */
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  color: #666666;
+  background-color: #FFFCF5;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+}
+
+/*==== Headings ====*/
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lato', 'Raleway', Arial, Helvetica, sans-serif;
+  color: #1C3963;
+  font-weight: 700;
+}
+h1 {
+  font-size: 6.854em;
+  line-height: 7rem;
+  margin: 1rem auto 2rem;
+}
+
+h2 {
+  font-size: 4.236em;
+  line-height: 4.5rem;
+  margin: 1rem auto 2rem;
+}
+
+h3 {
+  font-size: 2.618em;
+  line-height: 3rem;
+  margin: 1rem auto 2rem;
+}
+
+h4 {
+  font-size: 1.618em;
+  line-height: 2rem;
+  margin: 1rem auto 2rem;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: 'Lato', 'Raleway', Arial, Helvetica, sans-serif;
+  color: #1C3963;
+  font-weight: 700;
+}
+
+.h1 {
+  font-size: 6.854em;
+  line-height: 7rem;
+  margin: 1rem auto 2rem;
+}
+
+.h2 {
+  font-size: 4.236em;
+  line-height: 4.5rem;
+  margin: 1rem auto 2rem;
+}
+
+.h3 {
+  font-size: 2.618em;
+  line-height: 3rem;
+  margin: 1rem auto 2rem;
+}
+
+.h4 {
+  font-size: 1.618em;
+  line-height: 2rem;
+  margin: 1rem auto 2rem;
+}
+
+.display-1, .display-2, .display-3, .display-4 {
+  font-family: 'Raleway', Arial, Helvetica, sans-serif;
+  color: #1C3963;
+  font-weight: 700;
+}
+
+.display-1 {
+  font-size: 6.854em;
+  line-height: 7rem;
+  margin: 1rem auto 2rem;
+}
+
+.display-2 {
+  font-size: 4.236em;
+  line-height: 4.5rem;
+  margin: 1rem auto 2rem;
+}
+
+.display-3 {
+  font-size: 2.618em;
+  line-height: 3rem;
+  margin: 1rem auto 2rem;
+}
+
+.display-4 {
+  font-size: 1.618em;
+  line-height: 2rem;
+  margin: 1rem auto 2rem;
+}
+
+/*==== End Headings ====*/
+
+a {
+  text-decoration: none;
+  color: #ccc;
+}
+
+a:hover {
+  color: #E4752B;
+}
+
+.container {
+  width: 95vw;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  width: 75%;
+  padding-left: 5%;
+}
+
+.toc {
+  width: 15%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: auto;
+  padding-right: 40px;
+  margin: auto;
+}
+
+.toc h4 {
+  margin: 0;
+}
+
+/* ==== Navigation ===== */
+/* ==== End Navigation ===== */
+
+/* ==== Highlight Code Section ===== */
+
+.highlight {
+  background-color: #fafafa;
+  border: 1px solid #cccccc;
+  padding: 1em;
+  margin: 0 0 2em;
+  box-sizing: border-box;
+  width: 93.3%
+}
+
+.highlight pre {
+  word-wrap: normal;
+}
+
+.highlight .mk {
+  color: #E4752B;
+}
+
+.mk-p {
+  color: #E4752B;
+}
+
+/* ==== End Highlight Code Section ==== */
+
+
+/* ==== Responsive Tables ==== */
+.table {
+  border-collapse: collapse;
+  width: 70%;
+  background-color: #ffffff;
+  -moz-box-shadow: 2px 2px 15px #ccc;
+  -webkit-box-shadow: 2px 2px 15px #ccc;
+  box-shadow: 2px 2px 15px #ccc;
+}
+
+.table th {
+  font-family: 'Raleway', Arial, sans-serif;
+  font-size: 19px;
+  background-color: #E4752B;
+  color: white;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.table th,
+.table td{
+  border: 1px solid #cccccc;
+  padding: 1em;
+  margin: 0 auto;
+}
+/* ==== End Responsive Tables ==== */
+
+
+/* ==== Inline Elements ====*/
+
+p {
+  line-height: 1.25em;
+  margin-left: 1rem 0 2rem;
+}
+
+b, strong {
+  font-weight: bold;
+}
+
+i, em {
+  font-style: italic;
+}
+
+mark {
+  background-color: #E4752B;
+  color: #ffffff;
+}
+
+q {
+  quotes: "\00AB" "\00BB";
+}
+/* ==== End Inline Elements ====*/
+
+
+/* ==== Blockquote ====*/
+
+.blockquotes{
+  display:block;
+  background: #fff;
+  padding: 15px 20px 15px 45px;
+  margin: 0 0 20px;
+  position: relative;
+  font-family: 'Raleway', Arial, sans-serif;
+  border-left: 15px solid #E4752B;
+  border-right: 2px solid #E4752B;
+  -moz-box-shadow: 2px 2px 15px #ccc;
+  -webkit-box-shadow: 2px 2px 15px #ccc;
+  box-shadow: 2px 2px 15px #ccc;
+}
+
+.blockquotes::before{
+  content: "\201C";
+  font-size: 5em;
+  font-weight: bold;
+  color: #999;
+  position: absolute;
+  left: 10px;
+  top:5px;
+}
+
+.blockquotes::after{
+  content: "\201D";
+  font-size: 5em;
+  font-weight: bold;
+  color: #999;
+  position: absolute;
+  right: 10px;
+  top:5px;
+}
+
+.blockquotes-footer:before {
+  content: "-"
+}
+
+.blockquotes a{
+  text-decoration: none;
+  background: #eee;
+  cursor: pointer;
+  padding: 0 3px;
+  color: #E4752B;
+}
+
+.blockquotes a:hover{
+ color: #666;
+}
+
+.blockquotes em{
+  font-style: italic;
+}
+/* ==== End blockquote ====*/
+
+/* ==== Lists ====*/
+
+.list-unstyle {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.list-inline li{
+  display: inline;
+  margin-left: 1em;
+}
+
+/* ==== End Lists ====*/
+
+/* ==== Buttons ====*/
+
+.btn-1 {
+  background-color: #E4752B;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  border-radius: 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn-1:hover {
+  background-color: #FF9961;
+}
+
+.btn-2 {
+  background-color: #1C3963;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn-2:hover {
+  background-color: #6A9AD3;
+}
+
+.btn-3 {
+  background-color: #eeeeee;
+  border: solid 1px #1C3963;
+  color: #1C3963;
+  padding: 8px 16px;
+  border-radius: 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn-3:hover {
+  background-color: #dddddd;
+}
+
+/* ==== End Buttons ====*/
+
+
+.top {
+  font-size: 70px;
+  position: fixed;
+  bottom: 0;
+  right: 5%;
+}
